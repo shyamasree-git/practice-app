@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <h2>Welcome to React Project</h2>
+      <p>Testing new branch creation</p>
     </>
   );
 }
