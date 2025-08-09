@@ -3,12 +3,13 @@ import Parent from "./components/props/Parent";
 function App() {
   const [count, setCount] = useState(0);
   const pageStyle = {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
+    display: "block",
+    // justifyContent: "center",
+    // alignItems: "center",
     height: "100vh",
-    margin: 0,
+    margin: "0 auto",
     fontFamily: "Arial, sans-serif",
+    width: "100%",
   };
 
   return (
